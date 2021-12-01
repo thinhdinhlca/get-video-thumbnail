@@ -1,0 +1,31 @@
+{
+  "kind": "column",
+  "name": "Video-thumbnail-V1",
+  "description": "Video Thumbnail V1",
+  "author": "Manu.n",
+  "params": [
+    {
+      "name": "url",
+      "displayName": "url",
+      "type": "string"
+    },
+    {
+      "name": "currenttime",
+      "displayName": "Current Time (seconds, ex:10.4) OR YouTube quality = empty or : 0, 1, 2, 3, low0, low1, low2, low3, medium0, medium1, medium2, medium3, high0, high1, high2, high3, max0, max1, max2, max3",
+      "type": "string"
+    },
+    {
+      "name": "imgwidth",
+      "displayName": "Image Width (pixel) (empty = video width)",
+      "type": "number"
+    },
+    {
+      "name": "imgheight",
+      "displayName": "Image Height (pixel) (empty = video height)",
+      "type": "number"
+    }
+  ],
+  "result": {
+      "type": "image-uri" 
+  }
+}
